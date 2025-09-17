@@ -53,12 +53,16 @@ Repeat Customer: Alice Johnson (2 orders)
 
 Install SQLite
 Open terminal and start SQLite: 
-```sqlite3 ecommerce.db 
+```
+sqlite3 ecommerce.db
+
 ```
 
 ## Load schema and data:
-```.read 01_schema.sql
+```
+.read 01_schema.sql
 .read 02_seed.sql
 ```
 
 ## Run queries inside 03_queries.sql or write your own.
+
